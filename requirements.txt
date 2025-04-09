@@ -1,0 +1,43 @@
+## System Requirements
+
+### 1. **Hardware Requirements:**
+
+- **Processor**: 
+  - Minimum: 2 GHz Dual-Core Processor
+  - Recommended: 3 GHz Quad-Core Processor or higher
+- **RAM**: 
+  - Minimum: 4 GB
+  - Recommended: 8 GB or higher
+- **Storage**: 
+  - Minimum: 500 MB free space for the software and databases
+  - Recommended: 1 GB or more for additional image storage and datasets
+- **Webcam**:
+  - A webcam with at least 720p resolution (required for face capture and real-time recognition).
+  
+### 2. **Software Requirements:**
+
+- **Operating System**:
+  - Windows 10 or newer
+  - macOS (10.13 or higher)
+  - Linux (Ubuntu 20.04 or higher)
+  
+- **Python**:
+  - Python 3.6 or higher
+  
+- **Libraries/Dependencies**:
+  - **OpenCV** (for image processing and face recognition):
+    - Install with: `pip install opencv-python`
+  - **Tkinter** (for GUI creation):
+    - Tkinter is bundled with most Python installations. If not, it can be installed via your OS package manager.
+  - **MySQL** (for database storage):
+    - Install with: `pip install mysql-connector-python`
+  - **Pillow** (for image processing):
+    - Install with: `pip install pillow`
+  
+- **MySQL Database**:
+  - A running MySQL server (e.g., MySQL 5.7 or higher) for storing user data (name, Aadhar, mobile, email).
+  - The database should have a table for storing user information (e.g., `info_lost`).
+
+### 3. **Additional Software Requirements**:
+
+- **MySQL Workbench** or a similar database management tool for managing the database (optional, but recommended for easy database management).
