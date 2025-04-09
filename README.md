@@ -118,6 +118,9 @@ The `train_classifier()` function handles the training process, where it loads t
 - The GUI is designed using Tkinter, with entry fields for the user to provide their personal information (name, Aadhar, mobile, and email).
 - Buttons are added for **New Entry** and **Detect the face**.
 
+  ![GUI](https://github.com/user-attachments/assets/b2131dae-b6a0-4aed-b644-64fd42e629f4)
+
+
 ### 2. **Dataset Generation (Face Capture)**
 
 - The function `generate_dataset()` handles the capture of facial images.
